@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		742B5AC6201967BC004B1B39 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B5AC5201967BC004B1B39 /* UIView+Frame.m */; };
+		7466DA032022A1E10035B847 /* THEmoticonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7466D9FB2022A1E10035B847 /* THEmoticonView.m */; };
+		7466DA052022A1E10035B847 /* THScaleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7466DA002022A1E10035B847 /* THScaleButton.m */; };
 		74BCBCD720180F9100565165 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BCBCD620180F9100565165 /* AppDelegate.m */; };
 		74BCBCDA20180F9100565165 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BCBCD920180F9100565165 /* ViewController.m */; };
 		74BCBCDD20180F9100565165 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74BCBCDB20180F9100565165 /* Main.storyboard */; };
@@ -15,6 +18,10 @@
 		74BCBCE520180F9100565165 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BCBCE420180F9100565165 /* main.m */; };
 		74BCBCEF20180F9100565165 /* PGG_OC_ImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BCBCEE20180F9100565165 /* PGG_OC_ImageTests.m */; };
 		74BCBCFA20180F9100565165 /* PGG_OC_ImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BCBCF920180F9100565165 /* PGG_OC_ImageUITests.m */; };
+		74BCBD0920180FF500565165 /* UIImage+Quart2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BCBD0720180FF500565165 /* UIImage+Quart2D.m */; };
+		74C78EAA201829E1004A8330 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C78EA9201829E1004A8330 /* NextViewController.m */; };
+		74C78EAD20182A5A004A8330 /* AnyCutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C78EAC20182A5A004A8330 /* AnyCutViewController.m */; };
+		74C78EB02018B925004A8330 /* GuaJiangViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C78EAF2018B924004A8330 /* GuaJiangViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		742B5AC4201967BC004B1B39 /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		742B5AC5201967BC004B1B39 /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		7466D9FB2022A1E10035B847 /* THEmoticonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THEmoticonView.m; sourceTree = "<group>"; };
+		7466D9FE2022A1E10035B847 /* THScaleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THScaleButton.h; sourceTree = "<group>"; };
+		7466D9FF2022A1E10035B847 /* THEmoticonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THEmoticonView.h; sourceTree = "<group>"; };
+		7466DA002022A1E10035B847 /* THScaleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THScaleButton.m; sourceTree = "<group>"; };
 		74BCBCD220180F9100565165 /* PGG_OC_Image.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PGG_OC_Image.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74BCBCD520180F9100565165 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		74BCBCD620180F9100565165 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +64,14 @@
 		74BCBCF520180F9100565165 /* PGG_OC_ImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PGG_OC_ImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74BCBCF920180F9100565165 /* PGG_OC_ImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGG_OC_ImageUITests.m; sourceTree = "<group>"; };
 		74BCBCFB20180F9100565165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74BCBD0720180FF500565165 /* UIImage+Quart2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Quart2D.m"; sourceTree = "<group>"; };
+		74BCBD0820180FF500565165 /* UIImage+Quart2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Quart2D.h"; sourceTree = "<group>"; };
+		74C78EA8201829E1004A8330 /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		74C78EA9201829E1004A8330 /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		74C78EAB20182A5A004A8330 /* AnyCutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnyCutViewController.h; sourceTree = "<group>"; };
+		74C78EAC20182A5A004A8330 /* AnyCutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnyCutViewController.m; sourceTree = "<group>"; };
+		74C78EAE2018B924004A8330 /* GuaJiangViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuaJiangViewController.h; sourceTree = "<group>"; };
+		74C78EAF2018B924004A8330 /* GuaJiangViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuaJiangViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +126,20 @@
 				74BCBCD620180F9100565165 /* AppDelegate.m */,
 				74BCBCD820180F9100565165 /* ViewController.h */,
 				74BCBCD920180F9100565165 /* ViewController.m */,
+				74C78EA8201829E1004A8330 /* NextViewController.h */,
+				74C78EA9201829E1004A8330 /* NextViewController.m */,
+				74C78EAE2018B924004A8330 /* GuaJiangViewController.h */,
+				74C78EAF2018B924004A8330 /* GuaJiangViewController.m */,
+				74C78EAB20182A5A004A8330 /* AnyCutViewController.h */,
+				74C78EAC20182A5A004A8330 /* AnyCutViewController.m */,
+				74BCBD0820180FF500565165 /* UIImage+Quart2D.h */,
+				74BCBD0720180FF500565165 /* UIImage+Quart2D.m */,
+				742B5AC4201967BC004B1B39 /* UIView+Frame.h */,
+				742B5AC5201967BC004B1B39 /* UIView+Frame.m */,
+				7466D9FF2022A1E10035B847 /* THEmoticonView.h */,
+				7466D9FB2022A1E10035B847 /* THEmoticonView.m */,
+				7466D9FE2022A1E10035B847 /* THScaleButton.h */,
+				7466DA002022A1E10035B847 /* THScaleButton.m */,
 				74BCBCDB20180F9100565165 /* Main.storyboard */,
 				74BCBCDE20180F9100565165 /* Assets.xcassets */,
 				74BCBCE020180F9100565165 /* LaunchScreen.storyboard */,
@@ -265,9 +300,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				742B5AC6201967BC004B1B39 /* UIView+Frame.m in Sources */,
+				74C78EAD20182A5A004A8330 /* AnyCutViewController.m in Sources */,
+				7466DA052022A1E10035B847 /* THScaleButton.m in Sources */,
+				74C78EB02018B925004A8330 /* GuaJiangViewController.m in Sources */,
+				74C78EAA201829E1004A8330 /* NextViewController.m in Sources */,
 				74BCBCDA20180F9100565165 /* ViewController.m in Sources */,
 				74BCBCE520180F9100565165 /* main.m in Sources */,
+				7466DA032022A1E10035B847 /* THEmoticonView.m in Sources */,
 				74BCBCD720180F9100565165 /* AppDelegate.m in Sources */,
+				74BCBD0920180FF500565165 /* UIImage+Quart2D.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
